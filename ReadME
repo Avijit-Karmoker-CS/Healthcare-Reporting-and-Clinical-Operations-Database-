@@ -10,6 +10,7 @@ The project uses raw patient visit data uploaded from a CSV file into Supabase. 
 - SQL
 - Python
 - Pandas
+- SQLAlchemy
 - GitHub
 - CSV data ingestion
 
@@ -42,3 +43,6 @@ Run these files in Supabase SQL Editor in order:
 
 ## How to Run Python Reports
 Install dependencies:
+
+```bash
+pip install -r requirements.txt
