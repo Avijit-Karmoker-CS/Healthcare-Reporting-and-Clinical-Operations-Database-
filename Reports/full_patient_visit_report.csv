@@ -1,0 +1,7 @@
+visit_id,patient_name,age,gender,provider_name,department_name,visit_date,diagnosis,cost
+1,Ahmed Khan,45,M,Dr. Smith,Emergency,2026-04-01,Chest Pain,450.0
+2,Sarah Lee,32,F,Dr. Brown,Cardiology,2026-04-01,Hypertension,300.0
+3,David Miller,67,M,Dr. Smith,Emergency,2026-04-02,Shortness of Breath,700.0
+4,Maria Garcia,29,F,Dr. Wilson,Pediatrics,2026-04-02,Fever,180.0
+6,Aisha Rahman,41,F,Dr. Brown,Cardiology,2026-04-03,Arrhythmia,520.0
+5,John White,54,M,Dr. Taylor,Orthopedics,2026-04-03,Back Pain,250.0
