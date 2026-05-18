@@ -1,1 +1,48 @@
-#Start of project
+# Healthcare Reporting and Clinical Operations Database
+
+## Overview
+This project demonstrates a healthcare clinical operations database using Supabase PostgreSQL and SQL.
+
+The project uses raw patient visit data uploaded from a CSV file into Supabase. The raw table is transformed into a normalized relational database with patients, departments, providers, and visits. SQL queries are then used to analyze wait times, provider workload, department performance, and revenue.
+
+## Tools Used
+- Supabase PostgreSQL
+- SQL
+- Python
+- Pandas
+- SQLAlchemy
+- GitHub
+- CSV data ingestion
+
+## Database Tables
+- patients
+- departments
+- providers
+- visits
+
+## Workflow
+1. Uploaded `raw_patient_visits.csv` into Supabase.
+2. Created a normalized clinical operations schema.
+3. Loaded departments, providers, patients, and visits from the raw CSV table.
+4. Wrote SQL queries using joins, aggregations, and CTEs.
+5. Used Python to connect to Supabase and export query results as CSV reports.
+
+## Reports Created
+- Full patient visit report
+- Average wait time by department
+- Provider workload
+- Department revenue
+- Long wait-time visits using CTE
+
+## How to Run SQL Files
+Run these files in Supabase SQL Editor in order:
+
+1. `sql/01_create_operational_schema.sql`
+2. `sql/02_load_operational_tables.sql`
+3. `sql/03_clinical_reporting_queries.sql`
+
+## How to Run Python Reports
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
